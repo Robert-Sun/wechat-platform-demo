@@ -1,0 +1,18 @@
+#+TITLE: wechat-platform-demo
+#+STARTUP: showall
+
+* Introduction
+  Wechat public platform develop with nodejs.
+
+* Steps
+** npm install express -g && sudo npm install -g express-generator
+  express4.0以后需要安装express-generator之后才能使用express命令
+** express -t ejs wechat-platform-demo创建项目
+** cd wechat-platform-demo && npm install 安装必要的依赖
+** npm install wechat安装github上开源风装好的wechat接口
+** 修修补补，node server.js启动
+** 使用http://localhost:port/ 加响应路径访问相应功能
+** http://localhost:port/images/***.jpg 访问图片
+** 本地运行成功后可直接部署至bae，按照bae的规范来即可（端口修改成18080，app.conf文件不动）
+
+* Just for fun.
